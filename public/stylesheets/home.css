@@ -1,0 +1,142 @@
+/* HEADER */
+
+.home header{
+    background-color: #EAC926;
+}
+
+.home header img{
+    width: 40%;
+    padding-top: 10px;
+    margin: 0px 0px 10px 26%;
+    display: block;
+}
+
+.home header form{
+    margin-left: 25%;
+}
+
+.home header form input{
+    width: 60%;
+}
+
+.home header div{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.home header h2{
+    display: inline;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    /* font-size: 80%; */
+}
+
+.home header .nav-1,.nav-2{
+    margin: 20px 0px 10px 5px;
+    display: none;
+}
+
+.home header .burger{
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0px 10px 45%;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: #ffffff;
+}
+
+
+/* MAIN */
+
+.home main{
+    width: 90%;
+    margin: auto;
+}
+
+.home main .banner{
+    display: none;
+}
+
+.home main section h2{
+    display: inline-block;
+    margin: 20px auto 30px auto;
+    font-size: 24px;
+}
+
+.home main article{
+    background-color: #ffffff;
+    margin-bottom:10px;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+
+.home main article div {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.home main article div i{
+    color: #39b54a;
+    font-size: 20px;
+    position: absolute;
+    left: 85%;
+    /* bottom: 84px; */
+}
+
+.home article .precio{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.home article .descuento{
+    font-size: 16px;
+    color: #39b54a;
+    margin-bottom: 15px;
+}
+
+.home article h3{
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+.home footer{
+    background-color: #ffffff;
+}
+
+.home footer article{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home footer article i{
+    color:  #1259c3;
+    font-size: 2em;
+    margin: 60px 0px 10px 0px;
+
+}
+
+.home footer p{
+    padding: 0px 10px 10px;
+}
+
+/* TABLET Y DESKTOP*/
+
+
+@media (min-width:361px){
+
+    .home header .nav-1,.nav-2{
+        display: initial;
+        text-align: center;
+    }
+
+    .home header .nav-1 a,.nav-2 a{
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    .home header .burger{
+        display: none;
+    }
+}
+

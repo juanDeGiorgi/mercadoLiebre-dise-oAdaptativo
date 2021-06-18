@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    font-family: "Roboto";
+    padding: 0%;
+    /* text-align: center; */
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+body p,h2{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+li{
+    list-style: none;
+}
