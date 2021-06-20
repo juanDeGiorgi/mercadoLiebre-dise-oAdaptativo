@@ -66,7 +66,6 @@
 .home main article{
     background-color: #ffffff;
     margin-bottom:10px;
-    box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 
 .home main article div {
@@ -96,6 +95,7 @@
 
 .home article h3{
     font-size: 16px;
+    display: none;
 }
 
 /* FOOTER */
@@ -125,6 +125,8 @@
 
 @media (min-width:361px){
 
+    /* HEADER */
+
     .home header .nav-1,.nav-2{
         display: initial;
         text-align: center;
@@ -137,6 +139,17 @@
 
     .home header .burger{
         display: none;
+    }
+
+
+    /* MAIN */
+
+    .home article h3{
+        display: initial;
+    }
+
+    .home article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
     }
 }
 
